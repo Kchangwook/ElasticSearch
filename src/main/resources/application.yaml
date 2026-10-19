@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+
+  elasticsearch:
+    uris: http://localhost:9200
+
+logging:
+  level:
+    org.springframework.boot.elasticsearch: TRACE
+
